@@ -5,6 +5,12 @@
   --color-primary: #f8f200;
   --font-archangelsk: "Archangelsk", sans-serif;
   --font-roboto: "Roboto", sans-serif;
+  --breakpoint-phone: 20rem;
+  --background-image-heroPromo: url("./assets/images/Hero/heroPromoBg.svg");
+}
+
+@utility clip-hero {
+  clip-path: polygon(13% 0%, 100% 0%, 100% 80%, 86% 100%, 0% 100%, 0% 20%);
 }
 
 @font-face {
