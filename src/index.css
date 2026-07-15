@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f8f200;
+  --font-archangelsk: "Archangelsk", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "Archangelsk";
+  src: url("./assets/fonts/Archangelsk.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
