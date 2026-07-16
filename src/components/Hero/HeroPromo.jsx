@@ -1,12 +1,21 @@
 import Button from "../common/Button";
 import Title from "../common/Title";
 
+const lg = {
+  divItems: "lg:items-start",
+  Title: "lg:w-121 lg:text-left lg:pt-17 lg:pb-6",
+};
+
+const flexColCenter = "flex flex-col items-center";
+
 function HeroPromo() {
   return (
     <div>
-      <div className="w-full bg-heroPromo bg-no-repeat bg-cover flex flex-col items-center phone:w-80 lg:w-156">
-        <div className="flex flex-col items-center lg:items-start">
-          <Title className="py-7 w-3xs text-center lg:w-121 lg:text-left lg:pt-17 lg:pb-6">
+      <div
+        className={`${flexColCenter} w-full bg-heroPromo bg-no-repeat bg-cover phone:w-80 lg:w-156`}
+      >
+        <div className={`${flexColCenter} ${lg.divItems}`}>
+          <Title className={`py-7 w-3xs text-center ${lg.Title}`}>
             Доступно на всех платформах
           </Title>
           <div>
