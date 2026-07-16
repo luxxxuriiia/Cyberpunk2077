@@ -1,12 +1,18 @@
-import HeroButton from "./HeroButton";
-import HeroTitle from "./HeroTitle";
+import Button from "../common/Button";
+import Title from "../common/Title";
 
 function HeroPromo() {
   return (
-    <div className="w-full flex justify-center md:justify-end">
-      <div className="w-full mt-100 bg-heroPromo bg-no-repeat bg-cover flex flex-col items-center phone:w-80 md:mt-88 lg:w-156 lg:items-start lg:px-17 lg:mt-139">
-        <HeroTitle />
-        <HeroButton />
+    <div>
+      <div className="w-full bg-heroPromo bg-no-repeat bg-cover flex flex-col items-center phone:w-80 lg:w-156">
+        <div className="flex flex-col items-center lg:items-start">
+          <Title className="py-7 w-3xs text-center lg:w-121 lg:text-left lg:pt-17 lg:pb-6">
+            Доступно на всех платформах
+          </Title>
+          <div>
+            <Button className="mb-7 lg:mb-17">Узнать больше</Button>
+          </div>
+        </div>
       </div>
     </div>
   );

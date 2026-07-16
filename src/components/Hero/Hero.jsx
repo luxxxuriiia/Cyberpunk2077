@@ -5,12 +5,12 @@ import HeroPromo from "./HeroPromo";
 
 function Hero() {
   return (
-    <section className="relative h-177 overflow-hidden lg:h-1000 ">
+    <section className="relative overflow-hidden lg:h-1000 ">
       <HeroBackground />
 
-      <div className="relative z-10 2xl:container 2xl:mx-auto">
-        <div className="flex flex-col  phone:px-5 lg:px-9">
-          <nav className="flex flex-col px-3 md:flex-row md:items-center md:justify-between">
+      <div className="relative z-10 phone:container phone:mx-auto md:px-9">
+        <div className="flex flex-col justify-between h-190 phone:items-center md:items-end lg:h-250">
+          <nav className="flex flex-col items-center px-3 mt-5 w-full md:flex-row md:justify-between ">
             <HeroLogo />
             <HeroSocial />
           </nav>

@@ -24,7 +24,7 @@ function HeroBackground() {
   return (
     <img
       src={images[active]}
-      className="absolute h-160 w-full object-cover lg:h-250"
+      className="absolute h-178 w-full object-cover phone:h-190 lg:h-250"
       alt=""
     />
   );

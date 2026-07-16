@@ -9,7 +9,7 @@ const socialMedia = [youtube, vk, facebook, twitter, twitch, instagram];
 
 function HeroSocial() {
   return (
-    <ul className="flex justify-center space-x-7 mt-2 lg:space-x-10">
+    <ul className="flex justify-center space-x-7 mt-2 ">
       {socialMedia.map((social) => (
         <li>
           <a href="#">
