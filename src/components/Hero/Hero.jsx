@@ -1,16 +1,35 @@
 import HeroBackground from "./HeroBackground";
-import HeroSocial from "./HeroSocial";
 import HeroLogo from "./HeroLogo";
+import HeroSocial from "./HeroSocial";
 import HeroPromo from "./HeroPromo";
+
+//Responsive 768px
+const md = {
+  heroContainer: "md:px-9",
+  heroItems: "md:items-end",
+  heroNavigation: "md:flex-row md:justify-between md:px-0",
+};
+
+//Responsive 1024px
+const lg = {
+  heroSection: "lg:h-1000",
+  heroItems: "lg:h-250",
+};
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden lg:h-1000 ">
+    <section className={`relative overflow-hidden ${lg.heroSection}`}>
       <HeroBackground />
 
-      <div className="relative z-10 phone:container phone:mx-auto md:px-9">
-        <div className="flex flex-col justify-between h-190 phone:items-center md:items-end lg:h-250">
-          <nav className="flex flex-col items-center px-3 mt-5 w-full md:flex-row md:justify-between ">
+      <div
+        className={`relative z-10 phone:container phone:mx-auto ${md.heroContainer}`}
+      >
+        <div
+          className={`flex flex-col justify-between h-190 phone:items-center ${md.heroItems} ${lg.heroItems}`}
+        >
+          <nav
+            className={`flex flex-col items-center px-3 mt-5 w-full ${md.heroNavigation}`}
+          >
             <HeroLogo />
             <HeroSocial />
           </nav>
