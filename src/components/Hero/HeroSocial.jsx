@@ -8,7 +8,7 @@ import instagram from "../../assets/icons/instagram.svg";
 //Arr icons
 const socialMedia = [youtube, vk, facebook, twitter, twitch, instagram];
 
-//Responsive 768px
+// 768px
 const md = {
   socialItems: "md:mt-0",
 };

@@ -7,7 +7,7 @@ import heroBg3 from "../../assets/images/Hero/heroBg3.jpg";
 //Arr backgrounds
 const images = [heroBg1, heroBg2, heroBg3];
 
-//Responsive 1024px
+// 1024px
 const lg = {
   backgroundImg: "lg:h-250",
 };

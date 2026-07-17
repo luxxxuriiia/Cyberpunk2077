@@ -3,8 +3,10 @@
 
 @theme {
   --color-primary: #f8f200;
-  --font-archangelsk: "Archangelsk", sans-serif;
+  --color-secondary: #787878;
+  --color-span: #51bddb;
   --font-roboto: "Roboto", sans-serif;
+  --font-archangelsk: "Archangelsk", sans-serif;
   --breakpoint-phone: 26.5625rem;
   --background-image-heroPromo: url("./assets/images/Hero/heroPromoBg.svg");
 }

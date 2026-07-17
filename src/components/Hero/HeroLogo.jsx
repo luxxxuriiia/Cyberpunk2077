@@ -1,6 +1,6 @@
 import heroLogo from "../../assets/icons/heroLogo.svg";
 
-//Responsive 768px
+// 768px
 const md = {
   logoImg: "md:w-full",
 };

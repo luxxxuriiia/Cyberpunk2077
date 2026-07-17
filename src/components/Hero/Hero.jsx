@@ -3,16 +3,16 @@ import HeroLogo from "./HeroLogo";
 import HeroSocial from "./HeroSocial";
 import HeroPromo from "./HeroPromo";
 
-//Responsive 768px
+//768px
 const md = {
   heroContainer: "md:px-9",
   heroItems: "md:items-end",
   heroNavigation: "md:flex-row md:justify-between md:px-0",
 };
 
-//Responsive 1024px
+// 1024px
 const lg = {
-  heroSection: "lg:h-1000",
+  heroSection: "lg:h-250",
   heroItems: "lg:h-250",
 };
 

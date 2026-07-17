@@ -1,7 +1,7 @@
 import Button from "../common/Button";
 import Title from "../common/Title";
 
-//Responsive 1024px
+// 1024px
 const lg = {
   promo: "lg:w-156",
   promoItems: "lg:items-start",
