@@ -22,6 +22,9 @@ Promo website for Cyberpunk2077
 [inProcess...]
 
 # Screenshots
+<img width="1920" height="953" alt="chrome_TZ8EraaX4D" src="https://github.com/user-attachments/assets/7daa4b60-6ebd-465d-9aec-ba2ff145867f" />
 
-<img width="1920" height="953" alt="chrome_DqkFez7bvH" src="https://github.com/user-attachments/assets/8bc84080-f032-44f4-b987-fa322e2be30e" />
+
+
+
 
