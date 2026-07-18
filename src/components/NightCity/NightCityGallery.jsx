@@ -24,7 +24,7 @@ function NightCityGallery() {
       <NightCityTwoImage />
       <div className="flex justify-center gap-8">
         <img
-          className={`h-106 object-cover w-115 ${md.lastImage} ${lg.lastImage} ${xl.lastImage}`}
+          className={`h-106 object-cover w-115 octagon ${md.lastImage} ${lg.lastImage} ${xl.lastImage}`}
           src={img3}
           alt="thirdImage"
         />

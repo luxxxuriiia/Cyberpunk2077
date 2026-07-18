@@ -12,7 +12,7 @@ const lg = {
 function HeroPromo() {
   return (
     <div
-      className={`w-full bg-heroPromo bg-no-repeat bg-cover flex flex-col items-center phone:w-80 ${lg.promo}`}
+      className={`w-full bg-primary octagon flex flex-col items-center phone:w-80 ${lg.promo}`}
     >
       <div className={`flex flex-col items-center ${lg.promoItems}`}>
         <Title className={`py-7 w-3xs text-center ${lg.promoTitle}`}>

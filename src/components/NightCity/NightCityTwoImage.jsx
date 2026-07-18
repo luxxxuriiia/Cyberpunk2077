@@ -24,12 +24,12 @@ function NightCityTwoImage() {
       className={`flex flex-col items-center gap-8 ${md.twoImage} ${lg.twoImage} ${xl.twoImage}`}
     >
       <img
-        className={`h-49 object-cover ${md.sizeTwoImage} ${lg.sizeTwoImage}`}
+        className={`h-49 object-cover octagon ${md.sizeTwoImage} ${lg.sizeTwoImage}`}
         src={img1}
         alt="firstImage"
       />
       <img
-        className={`h-49 object-cover ${md.sizeTwoImage} ${lg.sizeTwoImage}`}
+        className={`h-49 object-cover octagon ${md.sizeTwoImage} ${lg.sizeTwoImage}`}
         src={img2}
         alt="secondImage"
       />

@@ -8,11 +8,19 @@
   --font-roboto: "Roboto", sans-serif;
   --font-archangelsk: "Archangelsk", sans-serif;
   --breakpoint-phone: 26.5625rem;
-  --background-image-heroPromo: url("./assets/images/Hero/heroPromoBg.svg");
 }
 
-@utility clip-hero {
-  clip-path: polygon(13% 0%, 100% 0%, 100% 80%, 86% 100%, 0% 100%, 0% 20%);
+@layer utilities {
+  .octagon {
+    clip-path: polygon(
+      48px 0,
+      100% 0,
+      100% calc(100% - 48px),
+      calc(100% - 48px) 100%,
+      0 100%,
+      0 48px
+    );
+  }
 }
 
 @font-face {
