@@ -5,40 +5,40 @@ import HeroPromo from "./HeroPromo";
 
 // 425px
 const phone = {
-  heroItems: "phone:items-center",
+  items: "phone:items-center",
 };
 
 //768px
 const md = {
-  heroContainer: "md:px-9",
-  heroItems: "md:items-end",
-  heroNavigation: "md:flex-row md:justify-between md:px-0",
+  container: "md:px-9",
+  items: "md:items-end",
+  navigation: "md:flex-row md:justify-between md:px-0",
 };
 
 // 1024px
 const lg = {
-  heroSection: "lg:h-250",
-  heroItems: "lg:h-250",
+  hero: "lg:h-250",
+  items: "lg:h-250",
 };
 
 // 1280px
 const xl = {
-  heroContainer: "xl:px-0",
+  container: "xl:px-0",
 };
 
 function Hero() {
   return (
-    <section className={`relative overflow-hidden ${lg.heroSection}`}>
+    <section className={`relative overflow-hidden ${lg.hero}`}>
       <HeroBackground />
 
       <div
-        className={`relative z-10 container mx-auto max-w-7xl ${md.heroContainer} ${xl.heroContainer}`}
+        className={`relative z-10 container mx-auto max-w-7xl ${md.container} ${xl.container}`}
       >
         <div
-          className={`flex flex-col justify-between h-190 ${phone.heroItems} ${md.heroItems} ${lg.heroItems}`}
+          className={`flex flex-col justify-between h-190 ${phone.items} ${md.items} ${lg.items}`}
         >
           <nav
-            className={`flex flex-col items-center px-3 mt-5 w-full ${md.heroNavigation}`}
+            className={`flex flex-col items-center px-3 mt-5 w-full ${md.navigation}`}
           >
             <HeroLogo />
             <HeroSocial />

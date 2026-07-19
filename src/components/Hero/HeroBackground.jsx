@@ -9,12 +9,12 @@ const images = [heroBg1, heroBg2, heroBg3];
 
 //425px
 const phone = {
-  backgroundImg: "phone:h-190",
+  background: "phone:h-190",
 };
 
 // 1024px
 const lg = {
-  backgroundImg: "lg:h-250",
+  background: "lg:h-250",
 };
 
 function HeroBackground() {
@@ -36,7 +36,7 @@ function HeroBackground() {
   return (
     <img
       src={images[active]}
-      className={`absolute h-178 w-full object-cover ${phone.backgroundImg} ${lg.backgroundImg}`}
+      className={`absolute h-178 w-full object-cover ${phone.background} ${lg.background}`}
       alt=""
     />
   );
