@@ -2,6 +2,11 @@ import Title from "../common/Title";
 import Paragraph from "../common/Paragraph";
 import Span from "../common/Span";
 
+// 768px
+const md = {
+  items: "md:px-9",
+};
+
 // 1024px
 const lg = {
   items: "lg:px-0",
@@ -17,7 +22,7 @@ const xl = {
 
 function NightCityDescription() {
   return (
-    <div className={`px-3 py-17 md:px-9 ${lg.items}`}>
+    <div className={`px-3 py-17 ${md.items} ${lg.items}`}>
       <Title className={`mb-6 ${lg.title} ${xl.title}`}>
         Найт-Сити изменит тебя навсегда!
       </Title>
