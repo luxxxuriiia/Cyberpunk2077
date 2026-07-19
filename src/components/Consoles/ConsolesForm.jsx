@@ -11,7 +11,7 @@ const md = {
 
 // 1024px
 const lg = {
-  button: "lg:w-48",
+  button: "lg:w-48 lg:text-lg lg:py-4",
 };
 
 function ConsolesForm() {
@@ -20,7 +20,11 @@ function ConsolesForm() {
       <InputName />
       <InputEmail />
       <InputScreenshot />
-      <Button isSecondary type="submit" className={`w-45 mb-3 ${lg.button}`}>
+      <Button
+        isSecondary
+        type="submit"
+        className={`w-45 mb-3 py-4.5 ${lg.button}`}
+      >
         Отправить
       </Button>
       <InputCheckbox />

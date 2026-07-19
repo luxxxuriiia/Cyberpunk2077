@@ -11,7 +11,7 @@ const lg = {
   promo: "lg:w-156",
   items: "lg:items-start",
   title: "lg:w-121 lg:text-left lg:pt-17 lg:pb-6",
-  button: "lg:mb-17",
+  button: "lg:mb-17 lg:text-2xl lg:py-6",
 };
 
 function HeroPromo() {
@@ -24,7 +24,9 @@ function HeroPromo() {
           Доступно на всех платформах
         </Title>
         <div>
-          <Button className={`mb-7 ${lg.button}`}>Узнать больше</Button>
+          <Button className={`mb-7 text-xl py-4 ${lg.button}`}>
+            Узнать больше
+          </Button>
         </div>
       </div>
     </div>
