@@ -16,13 +16,17 @@ const lg = {
   heroItems: "lg:h-250",
 };
 
+const xl = {
+  heroContainer: "xl:px-0 xl:max-w-7xl",
+};
+
 function Hero() {
   return (
     <section className={`relative overflow-hidden ${lg.heroSection}`}>
       <HeroBackground />
 
       <div
-        className={`relative z-10 phone:container phone:mx-auto ${md.heroContainer}`}
+        className={`relative z-10 phone:container phone:mx-auto ${md.heroContainer} ${xl.heroContainer}`}
       >
         <div
           className={`flex flex-col justify-between h-190 phone:items-center ${md.heroItems} ${lg.heroItems}`}

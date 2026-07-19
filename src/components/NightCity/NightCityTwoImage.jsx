@@ -4,7 +4,7 @@ import img2 from "../../assets/images/NightCity/img2.png";
 // 768px
 const md = {
   twoImage: "md:flex-row",
-  sizeTwoImage: "md:w-90",
+  sizeTwoImage: "md:w-83",
 };
 
 // 1024px

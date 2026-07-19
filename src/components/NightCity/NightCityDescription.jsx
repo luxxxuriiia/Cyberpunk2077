@@ -4,7 +4,7 @@ import Span from "../common/Span";
 
 // 1024px
 const lg = {
-  items: "lg:px-9",
+  items: "lg:px-0",
   title: "lg:w-155",
   paragraph: "lg:w-197",
 };
@@ -17,7 +17,7 @@ const xl = {
 
 function NightCityDescription() {
   return (
-    <div className={`px-3 py-17 ${lg.items}`}>
+    <div className={`px-3 py-17 md:px-9 ${lg.items}`}>
       <Title className={`mb-6 ${lg.title} ${xl.title}`}>
         Найт-Сити изменит тебя навсегда!
       </Title>

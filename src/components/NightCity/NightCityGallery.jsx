@@ -4,7 +4,7 @@ import NightCityTwoImage from "./NightCityTwoImage";
 // 768px
 const md = {
   items: "md:items-center",
-  lastImage: "md:w-188",
+  lastImage: "md:w-174",
 };
 
 // 1024px
@@ -14,7 +14,7 @@ const lg = {
 
 // 1280px
 const xl = {
-  items: "xl:flex-row xl:gap-8 xl:mx-9 xl:items-start",
+  items: "xl:flex-row xl:gap-8 xl:items-start",
   lastImage: "xl:w-197",
 };
 
