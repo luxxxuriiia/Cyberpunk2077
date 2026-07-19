@@ -27,7 +27,7 @@ const xxL = {
 function ConsolesImages() {
   return (
     <div
-      className={`flex justify-between w-full pb-6 absolute top-13 *:w-33 ${phone.items} ${md.items} ${lg.items} ${xxL.items}`}
+      className={`absolute top-13 flex w-full justify-between pb-6 *:w-33 ${phone.items} ${md.items} ${lg.items} ${xxL.items}`}
     >
       <img src={xbox} alt="xbox" className={`${xxL.xboxImage}`} />
       <img

@@ -35,10 +35,10 @@ function Hero() {
         className={`relative z-10 container mx-auto max-w-7xl ${md.container} ${xl.container}`}
       >
         <div
-          className={`flex flex-col justify-between h-190 ${phone.items} ${md.items} ${lg.items}`}
+          className={`flex h-190 flex-col justify-between ${phone.items} ${md.items} ${lg.items}`}
         >
           <nav
-            className={`flex flex-col items-center px-3 mt-5 w-full ${md.navigation}`}
+            className={`mt-5 flex w-full flex-col items-center px-3 ${md.navigation}`}
           >
             <HeroLogo />
             <HeroSocial />

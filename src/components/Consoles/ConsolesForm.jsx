@@ -16,14 +16,14 @@ const lg = {
 
 function ConsolesForm() {
   return (
-    <form className={`flex flex-col text-white mb-17 ${md.form}`}>
+    <form className={`mb-17 flex flex-col text-white ${md.form}`}>
       <InputName />
       <InputEmail />
       <InputScreenshot />
       <Button
         isSecondary
         type="submit"
-        className={`w-45 mb-3 py-4.5 ${lg.button}`}
+        className={`mb-3 w-45 py-4.5 ${lg.button}`}
       >
         Отправить
       </Button>

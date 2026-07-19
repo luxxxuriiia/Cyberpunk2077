@@ -15,7 +15,7 @@ const md = {
 
 function HeroSocial() {
   return (
-    <ul className={`flex justify-center space-x-7 px-3 mt-2 ${md.items}`}>
+    <ul className={`mt-2 flex justify-center space-x-7 px-3 ${md.items}`}>
       {socialMedia.map((social) => (
         <li>
           <a href="#">

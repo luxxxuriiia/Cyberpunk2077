@@ -14,17 +14,17 @@ const lg = {
 
 // 1280px
 const xl = {
-  items: "xl:flex-row xl:gap-8 xl:items-start",
+  items: "xl:flex-row xl:items-start xl:gap-8 ",
   lastImage: "xl:w-197",
 };
 
 function NightCityGallery() {
   return (
-    <div className={`flex flex-col space-y-8 mb-17 ${md.items} ${xl.items}`}>
+    <div className={`mb-17 flex flex-col space-y-8 ${md.items} ${xl.items}`}>
       <NightCityTwoImage />
       <div className="flex justify-center gap-8">
         <img
-          className={`h-106 object-cover w-115 octagon ${md.lastImage} ${lg.lastImage} ${xl.lastImage}`}
+          className={`octagon h-106 w-115 object-cover ${md.lastImage} ${lg.lastImage} ${xl.lastImage}`}
           src={img3}
           alt="thirdImage"
         />

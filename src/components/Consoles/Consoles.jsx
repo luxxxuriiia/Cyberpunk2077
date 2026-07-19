@@ -25,9 +25,9 @@ const xxL = {
 function Consoles() {
   return (
     <section className="bg-black">
-      <img className="w-full h-17 object-cover" src={spray} alt="" />
+      <img className="object-cover w-full h-17" src={spray} alt="" />
       <div
-        className={`container max-w-7xl mx-auto px-3 ${md.container} ${lg.container} ${xxL.container}`}
+        className={`container mx-auto max-w-7xl px-3 ${md.container} ${lg.container} ${xxL.container}`}
       >
         <div className={`relative ${lg.sprites}`}>
           <ConsolesImages />
@@ -39,7 +39,7 @@ function Consoles() {
           <ConsolesForm />
         </div>
       </div>
-      <img className="w-full h-17 object-cover rotate-180" src={spray} alt="" />
+      <img className="object-cover w-full rotate-180 h-17" src={spray} alt="" />
     </section>
   );
 }

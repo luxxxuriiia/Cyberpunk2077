@@ -6,11 +6,11 @@ function Checkbox() {
       <Input
         type="checkbox"
         name="agreement"
-        className="appearance-none w-3 h-3 border border-inputBorder peer sr-only"
+        className="w-3 h-3 border appearance-none sr-only peer border-inputBorder"
       />
-      <span class="block w-3 h-3 border border-gray-500 bg-black hover:cursor-pointer"></span>
+      <span class="block h-3 w-3 border border-gray-500 bg-black hover:cursor-pointer"></span>
 
-      <span className="absolute hidden text-primary text-xs top-0 left-0.5 leading-none cursor-pointer peer-checked:block">
+      <span className="absolute top-0 left-0.5 hidden cursor-pointer text-xs leading-none text-primary peer-checked:block">
         ✓
       </span>
     </>

@@ -17,14 +17,14 @@ const lg = {
 function HeroPromo() {
   return (
     <div
-      className={`w-full bg-primary octagon flex flex-col items-center ${phone.promo} ${lg.promo}`}
+      className={`octagon flex w-full flex-col items-center bg-primary ${phone.promo} ${lg.promo}`}
     >
       <div className={`flex flex-col items-center ${lg.items}`}>
-        <Title className={`py-7 w-3xs text-center ${lg.title}`}>
+        <Title className={`w-3xs py-7 text-center ${lg.title}`}>
           Доступно на всех платформах
         </Title>
         <div>
-          <Button className={`mb-7 text-xl py-4 ${lg.button}`}>
+          <Button className={`mb-7 py-4 text-xl ${lg.button}`}>
             Узнать больше
           </Button>
         </div>

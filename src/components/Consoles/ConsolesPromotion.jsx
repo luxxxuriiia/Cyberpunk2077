@@ -17,12 +17,12 @@ const xxL = {
 function ConsolesPromotion() {
   return (
     <div
-      className={`flex flex-col items-start pb-17 pt-35 ${lg.items} ${xxL.items}`}
+      className={`flex flex-col items-start pt-35 pb-17 ${lg.items} ${xxL.items}`}
     >
       <Title isSecondary className={`mb-6 ${xxL.title}`}>
         Играй и выигрывай!
       </Title>
-      <Paragraph className={` text-white ${xxL.paragraph}`}>
+      <Paragraph className={`text-white ${xxL.paragraph}`}>
         Играй в <Span>Cyberpunk 2077</Span> и получи возможность выиграть
         консоль <Span>Xbox Series X</Span> или <Span>Sony PlayStation 5!</Span>
         Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша
