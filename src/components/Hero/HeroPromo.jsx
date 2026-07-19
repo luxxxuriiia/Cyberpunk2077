@@ -1,6 +1,11 @@
 import Button from "../common/Button";
 import Title from "../common/Title";
 
+// 425px
+const phone = {
+  promo: "phone:w-80",
+};
+
 // 1024px
 const lg = {
   promo: "lg:w-156",
@@ -12,7 +17,7 @@ const lg = {
 function HeroPromo() {
   return (
     <div
-      className={`w-full bg-primary octagon flex flex-col items-center phone:w-80 ${lg.promo}`}
+      className={`w-full bg-primary octagon flex flex-col items-center ${phone.promo} ${lg.promo}`}
     >
       <div className={`flex flex-col items-center ${lg.promoItems}`}>
         <Title className={`py-7 w-3xs text-center ${lg.promoTitle}`}>

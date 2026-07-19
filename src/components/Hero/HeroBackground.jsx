@@ -7,6 +7,11 @@ import heroBg3 from "../../assets/images/Hero/heroBg3.jpg";
 //Arr backgrounds
 const images = [heroBg1, heroBg2, heroBg3];
 
+//425px
+const phone = {
+  backgroundImg: "phone:h-190",
+};
+
 // 1024px
 const lg = {
   backgroundImg: "lg:h-250",
@@ -28,11 +33,10 @@ function HeroBackground() {
     return () => clearInterval(timer);
   }, []);
 
-  //ui
   return (
     <img
       src={images[active]}
-      className={`absolute h-178 w-full object-cover phone:h-190 ${lg.backgroundImg}`}
+      className={`absolute h-178 w-full object-cover ${phone.backgroundImg} ${lg.backgroundImg}`}
       alt=""
     />
   );

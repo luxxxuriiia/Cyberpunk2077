@@ -3,6 +3,11 @@ import HeroLogo from "./HeroLogo";
 import HeroSocial from "./HeroSocial";
 import HeroPromo from "./HeroPromo";
 
+// 425px
+const phone = {
+  heroItems: "phone:items-center",
+};
+
 //768px
 const md = {
   heroContainer: "md:px-9",
@@ -16,8 +21,9 @@ const lg = {
   heroItems: "lg:h-250",
 };
 
+// 1280px
 const xl = {
-  heroContainer: "xl:px-0 xl:max-w-7xl",
+  heroContainer: "xl:px-0",
 };
 
 function Hero() {
@@ -26,10 +32,10 @@ function Hero() {
       <HeroBackground />
 
       <div
-        className={`relative z-10 phone:container phone:mx-auto ${md.heroContainer} ${xl.heroContainer}`}
+        className={`relative z-10 container mx-auto max-w-7xl ${md.heroContainer} ${xl.heroContainer}`}
       >
         <div
-          className={`flex flex-col justify-between h-190 phone:items-center ${md.heroItems} ${lg.heroItems}`}
+          className={`flex flex-col justify-between h-190 ${phone.heroItems} ${md.heroItems} ${lg.heroItems}`}
         >
           <nav
             className={`flex flex-col items-center px-3 mt-5 w-full ${md.heroNavigation}`}
