@@ -24,13 +24,16 @@ Promo website for Cyberpunk2077
 # Screenshots
 
 ## Mobile
-<img width="1920" height="953" alt="chrome_ArAxeJHb5V" src="https://github.com/user-attachments/assets/f10eace7-b174-4989-853d-ab91430549aa" />
+<img width="1920" height="953" alt="chrome_UqIeaNcA35" src="https://github.com/user-attachments/assets/31be5ddf-8a74-4659-983c-979238dc0eb3" />
+
 
 ## Tablet
-<img width="1920" height="953" alt="chrome_5tBG0r6CzG" src="https://github.com/user-attachments/assets/d668d4b8-ab92-4a5f-99b5-26ee0e37f50b" />
+<img width="1920" height="953" alt="chrome_Ciox5YvRmX" src="https://github.com/user-attachments/assets/1eef0200-c2b7-4dfa-ba80-46427eeb73a6" />
+
 
 ## Desktop
-<img width="1920" height="953" alt="chrome_7RJ50wyvNg" src="https://github.com/user-attachments/assets/58f9f040-4a0e-4a95-a832-429137a4db24" />
+<img width="1920" height="953" alt="chrome_JGpxW1gE9V" src="https://github.com/user-attachments/assets/8d936e5f-e2ae-4195-90dc-1267339e7317" />
+
 
 
 
