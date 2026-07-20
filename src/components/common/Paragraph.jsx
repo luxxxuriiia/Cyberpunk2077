@@ -6,7 +6,7 @@ const lg = {
 function Paragraph({ children, className }) {
   return (
     <p
-      className={`font-roboto text-base/8 leading-9 text-secondary ${lg.paragraph} ${className}`}
+      className={`font-roboto text-base/8 font-normal ${className} ${lg.paragraph} `}
     >
       {children}
     </p>

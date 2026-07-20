@@ -1,7 +1,8 @@
 import ConsolesPromotion from "./ConsolesPromotion";
 import ConsolesForm from "./ConsolesForm";
 import ConsolesImages from "./ConsolesImages";
-import spray from "../../assets/images/Consoles/spray.png";
+import spray from "../../assets/images/Consoles/spray.svg";
+import secondSpray from "../../assets/images/Consoles/secondSpray.svg";
 import promo from "../../assets/images/Consoles/promo.svg";
 
 // 768px
@@ -25,7 +26,7 @@ const xxL = {
 function Consoles() {
   return (
     <section className="bg-black">
-      <img className="object-cover w-full h-17" src={spray} alt="" />
+      <img className="h-17 w-full object-cover" src={spray} alt="" />
       <div
         className={`container mx-auto max-w-7xl px-3 ${md.container} ${lg.container} ${xxL.container}`}
       >
@@ -39,7 +40,11 @@ function Consoles() {
           <ConsolesForm />
         </div>
       </div>
-      <img className="object-cover w-full rotate-180 h-17" src={spray} alt="" />
+      <img
+        className="h-17 w-full bg-primary object-cover"
+        src={secondSpray}
+        alt=""
+      />
     </section>
   );
 }

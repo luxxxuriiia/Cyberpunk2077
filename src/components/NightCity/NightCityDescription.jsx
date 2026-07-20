@@ -26,7 +26,7 @@ function NightCityDescription() {
       <Title className={`mb-6 ${lg.title} ${xl.title}`}>
         Найт-Сити изменит тебя навсегда!
       </Title>
-      <Paragraph className={`${lg.paragraph} ${xl.paragraph}`}>
+      <Paragraph className={`text-secondary ${lg.paragraph} ${xl.paragraph}`}>
         <Span>Cyberpunk 2077</Span> — приключенческая ролевая игра, действие
         которой происходит в мегаполисе Найт-Сити, где власть, роскошь и
         модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках

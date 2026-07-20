@@ -1,4 +1,4 @@
-import heroLogo from "../../assets/icons/heroLogo.svg";
+import heroLogo from "../../assets/icons/logo.svg";
 
 // 768px
 const md = {
