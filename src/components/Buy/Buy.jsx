@@ -10,7 +10,7 @@ const phone = {
 
 // 1024px
 const lg = {
-  background: "lg:h-174",
+  background: "lg:h-179",
 };
 
 // 1536px
