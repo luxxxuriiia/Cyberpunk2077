@@ -4,7 +4,7 @@
 @theme {
   --color-primary: #f8f200;
   --color-secondary: #787878;
-  --color-span: #51bddb;
+  --color-span: #52bedc;
   --color-inputBorder: #777777;
   --font-roboto: "Roboto", sans-serif;
   --font-archangelsk: "Archangelsk", sans-serif;
@@ -30,4 +30,12 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+  font-weight: 400;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  font-family: Roboto;
 }
