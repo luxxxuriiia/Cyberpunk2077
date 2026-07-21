@@ -42,7 +42,7 @@ function Footer() {
           <ul
             className={`mt-12.5 mb-6 flex flex-col items-center space-y-4 ${md.right}`}
           >
-            <Paragraph className="text-x text-center">Концепт-проект</Paragraph>
+            <Paragraph className="text-center">Концепт-проект</Paragraph>
             <Paragraph className="text-center">
               Создано в образовательных целях
             </Paragraph>
