@@ -22,13 +22,13 @@ function Footer() {
       <div className={`container mx-auto max-w-7xl ${md.container} xl:px-0`}>
         <div className={`flex flex-col items-center ${lg.items}`}>
           <div
-            className={`mt-10 flex flex-col space-y-6 *:h-12.5 ${md.left} ${lg.left}`}
+            className={`mt-10 flex flex-col items-center space-y-6 *:h-12.5 ${md.left} ${lg.left}`}
           >
             <a
               href="#hero"
               className="opacity-100 transition-opacity duration-300 hover:opacity-80"
             >
-              <img src={logo} alt="logo" />
+              <img className="h-full" src={logo} alt="logo" />
             </a>
             <a
               target="_blank"
@@ -36,7 +36,7 @@ function Footer() {
               href="https://www.cdprojekt.com/en/"
               className="opacity-100 transition-opacity duration-300 hover:opacity-80"
             >
-              <img src={cdprojekt} alt="cdprojekt" />
+              <img className="h-full" src={cdprojekt} alt="cdprojekt" />
             </a>
           </div>
           <ul
@@ -48,7 +48,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex justify-center bg-black">
-        <span className="py-3 text-xs text-white">
+        <span className="py-3 text-center text-xs text-white">
           © 2026 Concept Project. For educational purposes only. All trademarks
           belong to their respective owners.
         </span>
