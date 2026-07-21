@@ -5,9 +5,9 @@ import Paragraph from "../common/Paragraph";
 
 // 768px
 const md = {
-  container: "md:px-9",
+  container: "md:px-4",
   left: "md:flex-row md:space-y-0 md:space-x-8 md:*:h-18.5",
-  right: "md:mt-0 md:mb-0 md:h-25 md:flex-row md:space-y-0 md:space-x-8",
+  right: "md:mt-0 md:mb-0 md:h-25 md:flex-row md:space-y-0 md:space-x-4",
 };
 
 // 1024px
@@ -42,8 +42,10 @@ function Footer() {
           <ul
             className={`mt-12.5 mb-6 flex flex-col items-center space-y-4 ${md.right}`}
           >
-            <Paragraph>Концепт-проект</Paragraph>
-            <Paragraph>Создано в образовательных целях</Paragraph>
+            <Paragraph className="text-x text-center">Концепт-проект</Paragraph>
+            <Paragraph className="text-center">
+              Создано в образовательных целях
+            </Paragraph>
           </ul>
         </div>
       </div>
