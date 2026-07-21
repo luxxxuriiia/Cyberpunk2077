@@ -15,6 +15,10 @@ const lg = {
 };
 
 function HeroPromo() {
+  function openPlatforms() {
+    window.open("https://www.cyberpunk.net/us/ru/buy", "_blank");
+  }
+
   return (
     <div
       className={`octagon flex w-full flex-col items-center bg-primary ${phone.promo} ${lg.promo}`}
@@ -24,7 +28,10 @@ function HeroPromo() {
           Доступно на всех платформах
         </Title>
         <div>
-          <Button className={`mb-7 py-4 text-xl ${lg.button}`}>
+          <Button
+            onClick={openPlatforms}
+            className={`mb-7 py-4 text-xl ${lg.button}`}
+          >
             Узнать больше
           </Button>
         </div>

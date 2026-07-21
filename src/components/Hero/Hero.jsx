@@ -28,7 +28,7 @@ const xl = {
 
 function Hero() {
   return (
-    <section className={`relative overflow-hidden ${lg.hero}`}>
+    <section id="hero" className={`relative overflow-hidden ${lg.hero}`}>
       <HeroBackground />
 
       <div

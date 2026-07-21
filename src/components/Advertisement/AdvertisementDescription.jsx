@@ -11,6 +11,12 @@ const lg = {
 };
 
 function AdvertisementDescription() {
+  function openHp() {
+    window.open(
+      "https://www.hp.com/pl-pl/shop/products/monitors/monitor-hp-x24c-gaming-9fm22aa-abb",
+    );
+  }
+
   return (
     <div className={`mt-10 ${lg.items}`}>
       <Title>Полное погружение вместе с HP</Title>
@@ -21,7 +27,9 @@ function AdvertisementDescription() {
         отклика 1 мс и частотой в 144 Гц!
       </Paragraph>
       <AdvertisementList />
-      <Button className="mt-10 py-5">Подробнее</Button>
+      <Button onClick={openHp} className="mt-10 py-5">
+        Подробнее
+      </Button>
     </div>
   );
 }

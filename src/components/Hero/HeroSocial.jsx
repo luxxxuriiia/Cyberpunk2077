@@ -5,8 +5,32 @@ import twitter from "../../assets/icons/twitter.svg";
 import twitch from "../../assets/icons/twitch.svg";
 import instagram from "../../assets/icons/instagram.svg";
 
-//Arr icons
-const socialMedia = [youtube, vk, facebook, twitter, twitch, instagram];
+const socialMedia = [
+  {
+    icon: youtube,
+    href: "https://www.youtube.com/@CyberpunkGame",
+  },
+  {
+    icon: vk,
+    href: "https://vk.com/cyberpunkgame",
+  },
+  {
+    icon: facebook,
+    href: "https://www.facebook.com/groups/Cyberpunk2077/",
+  },
+  {
+    icon: twitter,
+    href: "https://x.com/CyberpunkGame",
+  },
+  {
+    icon: twitch,
+    href: "https://www.twitch.tv/directory/category/cyberpunk-2077",
+  },
+  {
+    icon: instagram,
+    href: "https://www.instagram.com/cyberpunkgame/",
+  },
+];
 
 // 768px
 const md = {
@@ -16,10 +40,13 @@ const md = {
 function HeroSocial() {
   return (
     <ul className={`mt-2 flex justify-center space-x-7 px-3 ${md.items}`}>
-      {socialMedia.map((social) => (
-        <li>
-          <a href="#">
-            <img src={social} alt="" />
+      {socialMedia.map(({ icon, href }) => (
+        <li
+          key={href}
+          className="opacity-100 transition-opacity duration-300 hover:opacity-80"
+        >
+          <a href={href} target="_blank" rel="noopener noreferrer">
+            <img src={icon} />
           </a>
         </li>
       ))}

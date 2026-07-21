@@ -9,7 +9,7 @@ const md = {
 
 // 1024px
 const lg = {
-  lastImage: "lg:w-238",
+  lastImage: "lg:w-238 lg:hover:scale-105",
 };
 
 // 1280px
@@ -24,7 +24,7 @@ function NightCityGallery() {
       <NightCityTwoImage />
       <div className="flex justify-center gap-8">
         <img
-          className={`octagon h-106 w-115 object-cover ${md.lastImage} ${lg.lastImage} ${xl.lastImage}`}
+          className={`octagon h-106 w-115 object-cover transition-transform duration-300 ${md.lastImage} ${lg.lastImage} ${xl.lastImage}`}
           src={img3}
           alt="thirdImage"
         />

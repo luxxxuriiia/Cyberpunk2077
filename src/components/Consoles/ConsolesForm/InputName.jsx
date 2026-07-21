@@ -1,13 +1,15 @@
 import Input from "../../common/Input";
 
-function InputName() {
+function InputName({ value, onChange }) {
   return (
     <label>
       <Input
         type="text"
-        name="name"
+        name="user_name"
         placeholder="Как тебя зовут?"
-        className="w-full pb-3 mb-9"
+        className="mb-9 w-full pb-3"
+        value={value}
+        onChange={onChange}
       />
     </label>
   );

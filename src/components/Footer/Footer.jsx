@@ -24,20 +24,33 @@ function Footer() {
           <div
             className={`mt-10 flex flex-col space-y-6 *:h-12.5 ${md.left} ${lg.left}`}
           >
-            <img src={logo} alt="" />
-            <img src={cdprojekt} alt="" />
+            <a
+              href="#hero"
+              className="opacity-100 transition-opacity duration-300 hover:opacity-80"
+            >
+              <img src={logo} alt="logo" />
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.cdprojekt.com/en/"
+              className="opacity-100 transition-opacity duration-300 hover:opacity-80"
+            >
+              <img src={cdprojekt} alt="cdprojekt" />
+            </a>
           </div>
           <ul
             className={`mt-12.5 mb-6 flex flex-col items-center space-y-4 ${md.right}`}
           >
-            <Paragraph>Лицензия</Paragraph>
-            <Paragraph>Политика конфиденциальности</Paragraph>
+            <Paragraph>Концепт-проект</Paragraph>
+            <Paragraph>Создано в образовательных целях</Paragraph>
           </ul>
         </div>
       </div>
       <div className="flex justify-center bg-black">
         <span className="py-3 text-xs text-white">
-          CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®
+          © 2026 Concept Project. For educational purposes only. All trademarks
+          belong to their respective owners.
         </span>
       </div>
     </footer>

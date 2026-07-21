@@ -8,7 +8,7 @@ const md = {
 
 // 1024px
 const lg = {
-  twoImage: "lg:justify-center lg:*:w-full",
+  twoImage: "lg:justify-center lg:*:w-full lg:*:hover:scale-105",
 };
 
 // 1280px
@@ -19,7 +19,7 @@ const xl = {
 function NightCityTwoImage() {
   return (
     <div
-      className={`flex flex-col items-center gap-8 *:h-49 *:object-cover ${md.twoImage} ${lg.twoImage} ${xl.twoImage}`}
+      className={`flex flex-col items-center gap-8 *:h-49 *:object-cover *:transition-transform *:duration-300 ${md.twoImage} ${lg.twoImage} ${xl.twoImage}`}
     >
       <img className="octagon" src={img1} alt="firstImage" />
       <img className="octagon" src={img2} alt="secondImage" />

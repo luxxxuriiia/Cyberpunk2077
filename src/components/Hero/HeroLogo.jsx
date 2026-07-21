@@ -8,8 +8,8 @@ const md = {
 function HeroLogo() {
   return (
     <ul className="flex justify-center">
-      <li>
-        <a href="#">
+      <li className="opacity-100 transition-opacity duration-300 hover:opacity-80">
+        <a href="">
           <img className={`w-50 ${md.logo}`} src={heroLogo} alt="" />
         </a>
       </li>
