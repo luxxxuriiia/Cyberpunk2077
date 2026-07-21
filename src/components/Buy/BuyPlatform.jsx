@@ -23,14 +23,14 @@ function BuyPlatform() {
             rel="noopener noreferrer"
             href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/"
           >
-            <img src={pc} alt="" />
+            <img className="h-auto max-w-full" src={pc} alt="PC" />
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.xbox.com/en-US/games/store/cyberpunk-2077/BX3M8L83BBRW/0001"
           >
-            <img src={xboxone} alt="" />
+            <img className="h-auto max-w-full" src={xboxone} alt="XboxOne" />
           </a>
         </div>
         <div className="flex items-center justify-between *:transition-transform *:duration-300 *:hover:scale-110">
@@ -39,14 +39,18 @@ function BuyPlatform() {
             rel="noopener noreferrer"
             href="https://stadia.google.com/gg/"
           >
-            <img src={stadia} alt="" />
+            <img className="h-auto max-w-full" src={stadia} alt="Stadia" />
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.playstation.com/en-us/games/cyberpunk-2077/"
           >
-            <img src={playstation} alt="" />
+            <img
+              className="h-auto max-w-full"
+              src={playstation}
+              alt="PlayStation"
+            />
           </a>
         </div>
       </div>
